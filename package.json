@@ -1,5 +1,5 @@
 {
-  "name": "learning-git-2",
+  "name": "Request 13.2",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -17,19 +17,19 @@
     "build-dev:sass": "node-sass --output-style expanded --source-map true -o css sass",
     "watch": "npm-run-all build -p watch:*",
     "watch:browsersync": "node_modules/.bin/browser-sync start --server --files css/*.css *.html",
-    "watch:sassprefixer": "onchange -d 100 sass/**/*.scss   -- node-sass --output-style expanded --source-map false -o css sass/style.scss  && autoprefixer-cli -o css/style.prefixed.css css/style.css "
+    "watch:sassprefixer": "onchange -d 100 sass/**/*.scss  -- node-sass --output-style expanded -o css sass/style.scss  && autoprefixer-cli -o css/style.prefixed.css css/style.css "
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Szoker6/Kodilla-Individual-project"
+    "url": "git+https://github.com/Szoker6/Request13.2.git"
   },
   "keywords": [],
   "author": "Dawid Margraf",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Szoker6/Kodilla-Individual-project"
+    "url": "https://github.com/Szoker6/Request13.2.git"
   },
-  "homepage": "https://github.com/Szoker6/Kodilla-Individual-project",
+  "homepage": "https://github.com/Szoker6/Request13.2.git",
   "devDependencies": {
     "autoprefixer-cli": "^1.0.0",
     "browser-sync": "^2.26.3",
