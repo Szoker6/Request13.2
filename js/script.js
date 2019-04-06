@@ -7,8 +7,8 @@
         modals.forEach(function (modal) {
             modal.classList.remove("show");
         });
-        var modalOneTwoTheree = event.target.getAttribute('href');
-        document.querySelector(modalOneTwoTheree).classList.add('show')
+        var modalhref = event.target.getAttribute('href');
+        document.querySelector( modalhref).classList.add('show')
         document.querySelector("#modal-overlay").classList.add("show");
     };
 
